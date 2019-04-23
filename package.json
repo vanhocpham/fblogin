@@ -1,0 +1,32 @@
+{
+  "name": "fblogin",
+  "version": "1.0.0",
+  "description": "login cookie fb",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoc-anms/fblogin.git"
+  },
+  "keywords": [
+    "fb"
+  ],
+  "author": "hoc-anms",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hoc-anms/fblogin/issues"
+  },
+  "homepage": "https://github.com/hoc-anms/fblogin#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "facebook-chat-api": "^1.6.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.11"
+  }
+}
